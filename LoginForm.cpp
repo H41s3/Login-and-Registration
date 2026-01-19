@@ -40,7 +40,7 @@ int main()
         break;
 
     default:
-        system("cls");
+        system("clear"); // cls for Windows
         cout << "\t\t\t Pleae select from the option given above \n"
              << endl;
         main();
@@ -51,7 +51,7 @@ void login()
 {
     int count;
     string userId, password, id, pass;
-    system("cls");
+    system("clear");
     cout << "\t\t\t Please enter the username and password : " << endl;
     cout << "\t\t\t USERNAME ";
     cin >> userId;
@@ -85,7 +85,7 @@ void login()
 void registration()
 {
     string ruserId, rpassword, rid, rpass;
-    system("cls");
+    system("clear");
     cout << "\t\t\t Enter the username : ";
     cin >> ruserId;
     cout << "\t\t\t Enter the password : ";
@@ -101,7 +101,7 @@ void registration()
 void forgot()
 {
     int option;
-    system("cls");
+    system("clear");
     cout << "\t\t\t You forgot the password? No Worries \n";
     cout << "Press 1 to search your id by username " << endl;
     cout << "press 2 to go to the main menu " << endl;
