@@ -11,7 +11,7 @@ int main()
 {
     int c;
     cout << "\t\t\t_________________________________________\n\n\n";
-    cout << "\t\t\t          welcome to the login page      \n\n\n";
+    cout << "\t\t\t          Welcome to the login page     \n\n\n";
     cout << "\t\t\t_________        MENU        ____________\n\n\n";
     cout << "                                                 \n\n\n";
     cout << "\t|  Press 1 to LOGIN                     |" << endl;
