@@ -94,7 +94,7 @@ void registration()
     ofstream f1("records.txt", ios::app);
     f1 << ruserId << " " << rpassword << endl;
     system("cls");
-    cout << "\n\t\t\t Registrationis succesfull! \n";
+    cout << "\n\t\t\t Registration is succesfull! \n";
     main();
 }
 
